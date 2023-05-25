@@ -1,8 +1,8 @@
-import "./app.css";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 import FallbackScreen from "./Components/FallbackScreen/FallbackScreen";
+import app from './app.module.css'
 const LazyDashboard = React.lazy(() =>
   import("./Features/Dashboard/Dashboard")
 );
@@ -15,7 +15,7 @@ const LazySecureRouting = React.lazy(() =>
 
 const App = () => {
   return (
-    <div>
+    <div className={app.container}>
       <ErrorBoundary FallbackComponent={FallbackScreen}>
         <Routes>
           <Route
