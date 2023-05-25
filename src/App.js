@@ -1,5 +1,5 @@
-import React from "react";
 import "./app.css";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 import FallbackScreen from "./Components/FallbackScreen/FallbackScreen";
