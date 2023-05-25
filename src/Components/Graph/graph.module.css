@@ -1,0 +1,11 @@
+.container {
+  height: 12.5rem;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 12.5rem;
+    width: 21rem;
+  }
+}

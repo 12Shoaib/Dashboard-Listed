@@ -1,0 +1,25 @@
+.activity_container {
+  height: 16rem;
+  border-radius: 1.2rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-top: 0.4rem;
+}
+.activity_heading {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", "san-serif";
+}
+
+@media screen and (max-width: 500px) {
+  .activity_container {
+    margin: 0.7rem;
+    width: 20rem;
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "salesData" : [
+        {
+            "title" : "Total Revenues",
+            "count" : "$2,129,430"
+        },
+        {
+            "title": "Total Transactions",
+            "count" : "1,520"
+         },
+        {
+            "title":"Total Likes",
+            "count": "9,721"
+        },
+        {
+            "title":"Total Users",
+            "count" : "892"
+        }
+    ],
+    "meetingsSchedule" : [
+        {
+            "clientName" : "Meeting with suppliers from Kuta Bali",
+            "meetingTime" : "14.00 - 15.00",
+            "location" : "at Sunset Road , Kuta , Bali"
+        },
+        {
+            "clientName" : "Check operation at Giga Factory 1",
+            "meetingTime" : "18.00 - 20.00",
+            "location" : "at Central Jakarta"
+
+        }
+        
+    ]
+}
