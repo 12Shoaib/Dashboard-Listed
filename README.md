@@ -8,15 +8,14 @@
 <p> ->  Now run npm start command on the terminal  </p>
 <p> ->  You can now see your server must have started  </p><br/>
 
-<p>Deployment Link: https://deployment-listed.vercel.app/ </p>
-<p>GitHub link : https://github.com/12Shoaib/Listed_Assignment.git </p><br/>
+<p>Deployment Link: https://dashboard-listed-psi.vercel.app/dashboard </p>
+<p>GitHub link : https://github.com/12Shoaib/Dashboard-Listed.git </p><br/>
 
 <p>Folder Structure </p>
 <p>Src : Contains the source files of the project </p>
 <p>Src/Components : Contains reusbale react components </p>
 <p>Src/Features : The two screens are in features folder Signin & Dashboard. </p>
-<p>Src/Authentication : The authentication folder contains the auth logic. </p>
-<p>Src/Recoil : Global states are managed here in recoil. </p><br/>
+<p>Src/Authentication : The authentication folder contains the auth details. </p>
 
 <p> Project Screenshots </p>
 <img src="https://user-images.githubusercontent.com/93069814/234891126-53f33611-8e28-43cf-b148-c06b5283577a.jpeg" /><br/><br/>
