@@ -16,7 +16,13 @@
 <p>Src/Components : Contains reusbale react components </p>
 <p>Src/Features : The two screens are in features folder Signin & Dashboard. </p>
 <p>Src/Authentication : The authentication folder contains the auth details. </p>
+<p> App.js :  The App.js file serves as the main entry point of the application</p>
 
 <p> Project Screenshots </p>
 <img src="https://user-images.githubusercontent.com/93069814/234891126-53f33611-8e28-43cf-b148-c06b5283577a.jpeg" /><br/><br/>
-<img src="https://user-images.githubusercontent.com/93069814/234891146-67c6af46-c1e1-46e9-b8e1-bdeb8354080e.jpeg" />
+<img src="https://user-images.githubusercontent.com/93069814/234891146-67c6af46-c1e1-46e9-b8e1-bdeb8354080e.jpeg" /><br/>
+
+<p>Contact </p>
+<p> For any inquiries or further information, please contact me at Shoaibmohd916@gmail.com </p>
+
+
