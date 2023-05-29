@@ -180,4 +180,10 @@
   .card_two {
     width: 21rem;
   }
+  .card_one_sub_heading{
+    display: none;
+  }
+  .card_two_sub_heading{
+    display: none;
+  }
 }
