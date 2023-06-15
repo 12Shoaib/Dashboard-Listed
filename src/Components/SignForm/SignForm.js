@@ -7,6 +7,8 @@ import { auth, provider } from "../../AuthenticationSetup/Firebase";
 import { toast } from "react-toastify";
 import signinform from "./signform.module.css";
 import "react-toastify/dist/ReactToastify.css";
+import {imageUrl} from '../Recoil/RecoilAtom';
+import { useRecoilState } from "recoil";
 
 const SignForm = () => {
   const navigate = useNavigate();
@@ -14,10 +16,12 @@ const SignForm = () => {
     email: "",
     password: "",
   });
+  const [imageDataUrl,setimageUrl] = useRecoilState(imageUrl)
 
   const handleSigninWithGoogle = () => {
     signInWithPopup(auth, provider)
       .then((user) => {
+        setimageUrl([user])
         sessionStorage.setItem("userAuth", JSON.stringify(user));
         navigate("/dashboard");
       })

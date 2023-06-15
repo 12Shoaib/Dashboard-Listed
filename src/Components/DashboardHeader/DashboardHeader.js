@@ -4,9 +4,13 @@ import { useRecoilState } from "recoil";
 import { hamburgerMenu } from "../Recoil/RecoilAtom";
 import { IoClose } from "react-icons/io5";
 import dashboardheader from "./dashboardheader.module.css";
+import { useRecoilValue } from "recoil";
+import { imageUrl } from '../Recoil/RecoilAtom'
 
 const DashboardHeader = () => {
   const [isMenuVisible, setIsMenuVisible] = useRecoilState(hamburgerMenu);
+  const urlImage = useRecoilValue(imageUrl)
+  console.log(urlImage[0]?.user.photoURL)    
   const handleHamburgerMenuClick = () => {
     setIsMenuVisible(!isMenuVisible);
   };
@@ -37,7 +41,7 @@ const DashboardHeader = () => {
         </div>
         <BiBell />
         <img
-          src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+          src={urlImage[0]?.user?.photoURL}
           alt="user"
           className={dashboardheader.image}
         />
